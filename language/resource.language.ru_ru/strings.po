@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Estuary
-# Addon id: skin.estuary
-# Addon Provider: phil65, Ichabod Fletchman
+# Addon Name: Estuary v2 Extended Shortcuts
+# Addon id: skin.estuary2-extended-s
+# Addon Provider: phil65, Ichabod Fletchman, YLLOW_DRAGON
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
@@ -225,12 +225,12 @@ msgid "Automatic Login on startup"
 msgstr "Автоматическая авторизация при запуске"
 
 msgctxt "#31061"
-msgid "Main menu items"
-msgstr "Элементы главного меню"
+msgid "Main menu"
+msgstr "Главное меню"
 
 msgctxt "#31062"
-msgid "Choose weather fanart pack"
-msgstr "Выбрать набор фанарта погоды"
+msgid "Choose weather backgrounds pack"
+msgstr "Выбрать пакет фонов для погоды"
 
 msgctxt "#31063"
 msgid "Sections"
@@ -326,7 +326,7 @@ msgstr "Значки"
 
 msgctxt "#31100"
 msgid "Shift"
-msgstr "Shift"
+msgstr "Сдвиг"
 
 msgctxt "#31101"
 msgid "InfoWall"
@@ -441,8 +441,8 @@ msgid "Main menu-related settings: Configure the home screen to your likings."
 msgstr "Основные настройки меню: Настройка главного экрана в соответствии с Вашими предпочтениями."
 
 msgctxt "#31131"
-msgid "Choose skin fanart pack"
-msgstr "Выбрать набор фанарта обложки"
+msgid "Choose home backgrounds pack"
+msgstr "Выбрать пакет фонов для главного экрана"
 
 msgctxt "#31132"
 msgid "Select Program"
@@ -501,8 +501,8 @@ msgid "Categories"
 msgstr "Категории"
 
 msgctxt "#31149"
-msgid "Select genre fanart pack"
-msgstr "Выбрать набор фанарта жанров"
+msgid "Choose genre backgrounds pack"
+msgstr "Выбрать пакет фонов для жанров"
 
 msgctxt "#31150"
 msgid "Repository"
@@ -530,7 +530,7 @@ msgstr "Нет закладок"
 
 msgctxt "#31156"
 msgid "Choose background pattern"
-msgstr "Выберите фон"
+msgstr "Выберите шаблон фона"
 
 msgctxt "#31157"
 msgid "Edit categories"
@@ -558,7 +558,7 @@ msgstr "Играйте в свои личные игры или загрузит
 
 msgctxt "#31163"
 msgid "Show Fanart background"
-msgstr "Показать фанатный фон"
+msgstr "Показать фанарт"
 
 msgctxt "#31164"
 msgid "Choose kind of profile identification"
@@ -571,3 +571,421 @@ msgstr "Название профиля"
 msgctxt "#31166"
 msgid "Profile avatar"
 msgstr "Аватар профиля"
+
+msgctxt "#31167"
+msgid "Animate background"
+msgstr "Анимационный фон"
+
+# EXTENDED ADDED VALUE
+
+msgctxt "#42000"
+msgid "Use custom global background"
+msgstr "Использовать пользовательский фон"
+
+msgctxt "#42001"
+msgid "Choose image path"
+msgstr "Выберите путь к изображению"
+
+msgctxt "#42002"
+msgid "Previous location"
+msgstr "Предыдущее местоположение"
+
+msgctxt "#42003"
+msgid "Next location"
+msgstr "Следующее местоположение"
+
+msgctxt "#43000"
+msgid "Options"
+msgstr "Параметры"
+
+msgctxt "#43001"
+msgid "User widgets"
+msgstr "Виджеты пользователя"
+
+msgctxt "#43002"
+msgid "Colors"
+msgstr "Цвета"
+
+msgctxt "#43003"
+msgid "Enable splash screen (photo, video or music)"
+msgstr "Разрешить заставку (фото, видео или музыка)"
+
+msgctxt "#43004"
+msgid "Path:"
+msgstr "Путь:"
+
+msgctxt "#43005"
+msgid "Duration"
+msgstr "Длительность"
+
+msgctxt "#43006"
+msgid "Enable Smart Shortcuts Playlists"
+msgstr "Разрешить Смарт Ярлыки для плейлистов"
+
+msgctxt "#43007"
+msgid "Enable Smart Shortcuts Favorites"
+msgstr "Разрешить Смарт Ярлыки для избранного"
+
+msgctxt "#43008"
+msgid "Enable Animated Posters"
+msgstr "Разрешить анимированные постеры"
+
+msgctxt "#43009"
+msgid "Enable FullScreen Clock"
+msgstr "Показывать часы в полноэкранном режиме"
+
+msgctxt "#43010"
+msgid "Enable SlideShow Info"
+msgstr "Показывать информацию в слайдшоу"
+
+msgctxt "#43011"
+msgid "Show stats"
+msgstr "Показывать статистику"
+
+msgctxt "#43012"
+msgid "Choose movie genre icons pack"
+msgstr "Выбрать пакет иконок жанров для фильмов"
+
+msgctxt "#43013"
+msgid "Choose studios icons pack"
+msgstr "Выбрать пакет иконок студий"
+
+msgctxt "#43014"
+msgid "Choose flags country icons pack"
+msgstr "Выбрать пакет иконок флагов стран"
+
+msgctxt "#43015"
+msgid "Choose weather icons pack"
+msgstr "Выбрать пакет иконок погоды"
+
+msgctxt "#43016"
+msgid "Busy spinner"
+msgstr "Индикатор занятости"
+
+msgctxt "#43017"
+msgid "Enable user list of add-ons"
+msgstr "Разрешить пользовательский список дополнений"
+
+msgctxt "#43018"
+msgid "Enable user list of TV and radio channels"
+msgstr "Разрешить пользовательский список тв и радио каналов"
+
+msgctxt "#43019"
+msgid "Debug infos"
+msgstr "Отладочная иформация"
+
+msgctxt "#43020"
+msgid "Customize power menu"
+msgstr "Настройка меню питания"
+
+msgctxt "#43021"
+msgid "User list of add-ons"
+msgstr "Пользовательский список дополнений"
+
+msgctxt "#43022"
+msgid "User list of TV and radio channels"
+msgstr "Пользовательский список тв и радио каналов"
+
+msgctxt "#43023"
+msgid "Choose background pattern"
+msgstr "Выберите шаблон фона"
+
+msgctxt "#43026"
+msgid "Color Primary Background"
+msgstr "Цвет фона"
+
+msgctxt "#43027"
+msgid "Color Secondary Background"
+msgstr "Цвет шаблона фона"
+
+msgctxt "#43028"
+msgid "Main Color"
+msgstr "Основной цвет"
+
+msgctxt "#43029"
+msgid "Backup Skin Settings"
+msgstr "Резервная копия настроек обложки"
+
+msgctxt "#43030"
+msgid "Create"
+msgstr "Создать"
+
+msgctxt "#43031"
+msgid "Restory"
+msgstr "Восстановить"
+
+msgctxt "#43032"
+msgid "Widget Limit Items"
+msgstr "Виджеты лимит элементов"
+
+msgctxt "#43033"
+msgid "Choose music genre icons pack"
+msgstr "Выбрать пакет иконок жанров для музыки"
+
+msgctxt "#43040"
+msgid "Advanced options"
+msgstr "Дополнительные параметры"
+
+msgctxt "#43041"
+msgid "User widgets options"
+msgstr "Параметры виджетов пользователя"
+
+msgctxt "#43042"
+msgid "Background options"
+msgstr "Параметры фона"
+
+msgctxt "#43043"
+msgid "Colors skin options"
+msgstr "Параметры цвета"
+
+msgctxt "#43044"
+msgid "Reset skin options"
+msgstr "Сброс параметров обложки"
+
+msgctxt "#43045"
+msgid "Artwork Downloader"
+msgstr "Загрузить иллюстрации"
+
+msgctxt "#43050"
+msgid "Picture Add-On"
+msgstr "Фото дополнение"
+
+msgctxt "#43051"
+msgid "TV Channel"
+msgstr "ТВ каналы"
+
+msgctxt "#43052"
+msgid "Radio Channel"
+msgstr "Радио каналы"
+
+msgctxt "#43053"
+msgid "Video Add-On"
+msgstr "Видео дополнение"
+
+msgctxt "#43054"
+msgid "Video Source"
+msgstr "Видео источник"
+
+msgctxt "#43055"
+msgid "Music Source"
+msgstr "Музыкальный источник"
+
+msgctxt "#43056"
+msgid "Music Add-On"
+msgstr "Дополнение музыки"
+
+msgctxt "#43057"
+msgid "Program"
+msgstr "Программа"
+
+msgctxt "#43058"
+msgid "Video Playlist"
+msgstr "Видео плейлист"
+
+msgctxt "#43059"
+msgid "Music Playlist"
+msgstr "Музыкальный плейлист"
+
+msgctxt "#43060"
+msgid "Timer rules"
+msgstr "Правила таймера"
+
+msgctxt "#43061"
+msgid "Hide disabled"
+msgstr "Скрыть запрещенные"
+
+msgctxt "#43070"
+msgid "Set type of widgets"
+msgstr "Выберите тип виджетов"
+
+msgctxt "#43071"
+msgid "Disable"
+msgstr "Запретить"
+
+msgctxt "#43072"
+msgid "Enable"
+msgstr "Разрешить"
+
+msgctxt "#43081"
+msgid "Weather widgets"
+msgstr "Виджеты погоды"
+
+msgctxt "#43082"
+msgid "LiveTV widgets"
+msgstr "Виджеты ТВ"
+
+msgctxt "#43083"
+msgid "Radio widgets"
+msgstr "Виджеты радио"
+
+msgctxt "#43084"
+msgid "Addons widgets"
+msgstr "Виджеты дополнений"
+
+msgctxt "#43085"
+msgid "Favorites widget"
+msgstr "Виджет избранного"
+
+msgctxt "#43086"
+msgid "Media widgets"
+msgstr "Медиа виджеты"
+
+msgctxt "#43090"
+msgid "Most watched music videos"
+msgstr "Самые просматриваемые муз. видео"
+
+msgctxt "#43091"
+msgid "Random music videos artists"
+msgstr "Случайные муз. видео исполнители"
+
+msgctxt "#43100"
+msgid "Smart Shortcuts"
+msgstr "Смарт Ярлыки"
+
+msgctxt "#43101"
+msgid "Smart Widgets"
+msgstr "Смарт Виджеты"
+
+msgctxt "#43200"
+msgid "Big posters"
+msgstr "Большие постеры"
+
+msgctxt "#43201"
+msgid "Clear Logos"
+msgstr "Логотип 1"
+
+msgctxt "#43202"
+msgid "Clear Arts"
+msgstr "Логотип 2"
+
+msgctxt "#43210"
+msgid "Aired"
+msgstr "В эфире"
+
+msgctxt "#43220"
+msgid "Watch it Later"
+msgstr "Посмотреть позже"
+
+msgctxt "#43230"
+msgid "Hardware"
+msgstr "Оборудование"
+
+msgctxt "#43240"
+msgid "Channel"
+msgstr "Канал"
+
+msgctxt "#43241"
+msgid "Favorites TV Channels"
+msgstr "Избранные ТВ каналы"
+
+msgctxt "#43242"
+msgid "Favorites Radio Channels"
+msgstr "Избранные Радио каналы"
+
+msgctxt "#43250"
+msgid "Apply"
+msgstr "Применить"
+
+msgctxt "#44000"
+msgid "Background opacity"
+msgstr "Прозрачность фона"
+
+msgctxt "#44001"
+msgid "Opacity "
+msgstr "Прозрачность "
+
+msgctxt "#44100"
+msgid "Hide time"
+msgstr "Скрыть время"
+
+msgctxt "#44101"
+msgid "Notification popup position"
+msgstr "Позиция всплывающих уведомлений"
+
+msgctxt "#44102"
+msgid "Hide notification popup during playback"
+msgstr "Скрыть уведомления при проигрывании"
+
+msgctxt "#44103"
+msgid "Set notification popup position."
+msgstr "Установите позицию всплывающих уведомлений"
+
+msgctxt "#44104"
+msgid "Top left"
+msgstr "Вверху слева"
+
+msgctxt "#44105"
+msgid "Top center"
+msgstr "Вверху по центру"
+
+msgctxt "#44106"
+msgid "Top right"
+msgstr "Вверху справа"
+
+msgctxt "#44107"
+msgid "Bottom left"
+msgstr "Внизу слева"
+
+msgctxt "#44108"
+msgid "Bottom center"
+msgstr "Внизу по центру"
+
+msgctxt "#44109"
+msgid "Bottom right"
+msgstr "Внизу справа"
+
+msgctxt "#44111"
+msgid "Single image"
+msgstr "Одно изображение"
+
+msgctxt "#44112"
+msgid "Multi-image"
+msgstr "Набор картинок"
+
+msgctxt "#44113"
+msgid "Alternative view"
+msgstr "Алтернативный вид"
+
+msgctxt "#44114"
+msgid "Enable Wall Backgrounds"
+msgstr "Разрешить стену фонов"
+
+msgctxt "#44115"
+msgid "Random Fanart Delay"
+msgstr "Длительность показа для случайных фонов"
+
+msgctxt "#44116"
+msgid "Enable Animated Fanarts"
+msgstr "Разрешить анимированные фоны"
+
+msgctxt "#44117"
+msgid "Hide fanart in full screen visualisation"
+msgstr "Скрывать фанарт в полноэкранной визуализации"
+
+msgctxt "#44118"
+msgid "Show background \"Now playing\" video"
+msgstr "Воспроизводимое видео в качестве фона"
+
+msgctxt "#44119"
+msgid "Show background \"Now playing\" visualisation"
+msgstr "Музыкальная визуализация в качестве фона"
+
+msgctxt "#44120"
+msgid "Music and Radio"
+msgstr "Музыка и Радио"
+
+msgctxt "#44121"
+msgid "Download Music Theme"
+msgstr "Загрузить музыкальную тему"
+
+msgctxt "#44122"
+msgid "List with Icon"
+msgstr "Список с Иконками"
+
+msgctxt "#44123"
+msgid "List without Icon"
+msgstr "Список без Иконок"
+
+msgctxt "#44124"
+msgid "After launching KODI, move the focus of the main menu to"
+msgstr "После запуска KODI, переместить фокус главного меню на пункт"

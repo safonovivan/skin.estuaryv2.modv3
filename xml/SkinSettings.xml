@@ -3,6 +3,7 @@
 	<defaultcontrol>9000</defaultcontrol>
 	<backgroundcolor>background</backgroundcolor>
 	<onload condition="String.IsEmpty(Skin.String(background_overlay))">Skin.SetString(background_overlay,1)</onload>
+	<onunload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu|powermenu)</onunload>
 	<controls>
 		<include>DefaultBackground</include>
 		<control type="multiimage">
@@ -239,6 +240,41 @@
 					<onclick>Skin.ToggleSetting(HomeMenuNoWeatherButton)</onclick>
 				</control>
 			</control>
+			<control type="grouplist" id="300">
+				<left>0</left>
+				<top>160</top>
+				<right>0</right>
+				<bottom>140</bottom>
+				<onleft>9000</onleft>
+				<onright>30</onright>
+				<pagecontrol>30</pagecontrol>
+				<onup>610</onup>
+				<ondown>700</ondown>
+				<visible>Container(9000).HasFocus(4)</visible>
+				<control type="button" id="301">
+					<description>Manage Main Menu</description>
+					<include>DefaultSettingButton</include>
+					<label>$ADDON[script.skinshortcuts 32071]</label>
+					<onclick>RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onclick>
+				</control>
+				<control type="button" id="302">
+					<description>Manage Power Menu</description>
+					<include>DefaultSettingButton</include>
+					<label>$LOCALIZE[43020]</label>
+					<onclick>RunScript(script.skinshortcuts,type=manage&amp;group=powermenu)</onclick>
+				</control>
+				<control type="image" id="303">
+					<description>Separator Image</description>
+					<height>3</height>
+					<texture colordiffuse="AAAAAAAA" border="3">dialogs/separator-grey.png</texture>
+				</control>
+				<control type="button" id="304">
+					<description>Reset All Menu</description>
+					<include>DefaultSettingButton</include>
+					<label>$ADDON[script.skinshortcuts 32037]</label>
+					<onclick>RunScript(script.skinshortcuts,type=resetall)</onclick>
+				</control>
+			</control>
 			<control type="image">
 				<description>Dialog Header image</description>
 				<left>0</left>
@@ -310,6 +346,10 @@
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[31159]</label>
+						<onclick>noop</onclick>
+					</item>
+					<item id="4">
+						<label>!!shorcut</label>
 						<onclick>noop</onclick>
 					</item>
 				</content>

@@ -1,2 +1,4 @@
-﻿﻿[B]0.0.1[/B]
+﻿﻿[B]0.0.2[/B]
+• add shortcuts
+﻿[B]0.0.1[/B]
 • Initial commit

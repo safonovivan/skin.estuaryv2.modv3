@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Estuary
-# Addon id: skin.estuary
-# Addon Provider: phil65, Ichabod Fletchman
+# Addon Name: Estuary v2 Extended Shortcuts
+# Addon id: skin.estuary2-extended-s
+# Addon Provider: phil65, Ichabod Fletchman, YLLOW_DRAGON
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
@@ -297,12 +297,12 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31061"
-msgid "Main menu items"
+msgid "Main menu"
 msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31062"
-msgid "Choose weather fanart pack"
+msgid "Choose weather backgrounds pack"
 msgstr ""
 
 #: /xml/Includes_MediaMenu.xml
@@ -590,7 +590,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31131"
-msgid "Choose skin fanart pack"
+msgid "Choose home backgrounds pack"
 msgstr ""
 
 #: /xml/Custom_1101_SettingsList.xml
@@ -669,7 +669,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31149"
-msgid "Select genre fanart pack"
+msgid "Choose genre backgrounds pack"
 msgstr ""
 
 #: /xml/DialogAddonInfo.xml
@@ -764,4 +764,418 @@ msgstr ""
 #: /xml/SkinSettings.xml
 msgctxt "#31167"
 msgid "Animate background"
+msgstr ""
+
+# EXTENDED ADDED VALUE
+
+msgctxt "#42000"
+msgid "Use custom global background"
+msgstr ""
+
+msgctxt "#42001"
+msgid "Choose image path"
+msgstr ""
+
+msgctxt "#42002"
+msgid "Previous location"
+msgstr ""
+
+msgctxt "#42003"
+msgid "Next location"
+msgstr ""
+
+msgctxt "#43000"
+msgid "Options"
+msgstr ""
+
+msgctxt "#43001"
+msgid "User widgets"
+msgstr ""
+
+msgctxt "#43002"
+msgid "Colors"
+msgstr ""
+
+msgctxt "#43003"
+msgid "Enable splash screen (photo, video or music)"
+msgstr ""
+
+msgctxt "#43004"
+msgid "Path:"
+msgstr ""
+
+msgctxt "#43005"
+msgid "Duration"
+msgstr ""
+
+msgctxt "#43006"
+msgid "Enable Smart Shortcuts Playlists"
+msgstr ""
+
+msgctxt "#43007"
+msgid "Enable Smart Shortcuts Favorites"
+msgstr ""
+
+msgctxt "#43008"
+msgid "Enable Animated Posters"
+msgstr ""
+
+msgctxt "#43009"
+msgid "Enable FullScreen Clock"
+msgstr ""
+
+msgctxt "#43010"
+msgid "Enable SlideShow Info"
+msgstr ""
+
+msgctxt "#43011"
+msgid "Show stats"
+msgstr ""
+
+msgctxt "#43012"
+msgid "Choose movie genre icons pack"
+msgstr ""
+
+msgctxt "#43013"
+msgid "Choose studios icons pack"
+msgstr ""
+
+msgctxt "#43014"
+msgid "Choose flags country icons pack"
+msgstr ""
+
+msgctxt "#43015"
+msgid "Choose weather icons pack"
+msgstr ""
+
+msgctxt "#43016"
+msgid "Busy spinner"
+msgstr ""
+
+msgctxt "#43017"
+msgid "Enable user list of add-ons"
+msgstr ""
+
+msgctxt "#43018"
+msgid "Enable user list of TV and radio channels"
+msgstr ""
+
+msgctxt "#43019"
+msgid "Debug infos"
+msgstr ""
+
+msgctxt "#43020"
+msgid "Customize power menu"
+msgstr ""
+
+msgctxt "#43021"
+msgid "User list of add-ons"
+msgstr ""
+
+msgctxt "#43022"
+msgid "User list of TV and radio channels"
+msgstr ""
+
+msgctxt "#43023"
+msgid "Choose background pattern"
+msgstr ""
+
+msgctxt "#43026"
+msgid "Color Primary Background"
+msgstr ""
+
+msgctxt "#43027"
+msgid "Color Secondary Background"
+msgstr ""
+
+msgctxt "#43028"
+msgid "Main Color"
+msgstr ""
+
+msgctxt "#43029"
+msgid "Backup Skin Settings"
+msgstr ""
+
+msgctxt "#43030"
+msgid "Create"
+msgstr ""
+
+msgctxt "#43031"
+msgid "Restory"
+msgstr ""
+
+msgctxt "#43032"
+msgid "Widget Limit Items"
+msgstr ""
+
+msgctxt "#43033"
+msgid "Choose music genre icons pack"
+msgstr ""
+
+msgctxt "#43040"
+msgid "Advanced options"
+msgstr ""
+
+msgctxt "#43041"
+msgid "User widgets options"
+msgstr ""
+
+msgctxt "#43042"
+msgid "Background options"
+msgstr ""
+
+msgctxt "#43043"
+msgid "Colors skin options"
+msgstr ""
+
+msgctxt "#43044"
+msgid "Reset skin options"
+msgstr ""
+
+msgctxt "#43045"
+msgid "Artwork Downloader"
+msgstr ""
+
+msgctxt "#43050"
+msgid "Picture Add-On"
+msgstr ""
+
+msgctxt "#43051"
+msgid "TV Channel"
+msgstr ""
+
+msgctxt "#43052"
+msgid "Radio Channel"
+msgstr ""
+
+msgctxt "#43053"
+msgid "Video Add-On"
+msgstr ""
+
+msgctxt "#43054"
+msgid "Video Source"
+msgstr ""
+
+msgctxt "#43055"
+msgid "Music Source"
+msgstr ""
+
+msgctxt "#43056"
+msgid "Music Add-On"
+msgstr ""
+
+msgctxt "#43057"
+msgid "Program"
+msgstr ""
+
+msgctxt "#43058"
+msgid "Video Playlist"
+msgstr ""
+
+msgctxt "#43059"
+msgid "Music Playlist"
+msgstr ""
+
+msgctxt "#43060"
+msgid "Timer rules"
+msgstr ""
+
+msgctxt "#43061"
+msgid "Hide disabled"
+msgstr ""
+
+msgctxt "#43070"
+msgid "Set type of widgets"
+msgstr ""
+
+msgctxt "#43071"
+msgid "Disable"
+msgstr ""
+
+msgctxt "#43072"
+msgid "Enable"
+msgstr ""
+
+msgctxt "#43081"
+msgid "Weather widgets"
+msgstr ""
+
+msgctxt "#43082"
+msgid "LiveTV widgets"
+msgstr ""
+
+msgctxt "#43083"
+msgid "Radio widgets"
+msgstr ""
+
+msgctxt "#43084"
+msgid "Addons widgets"
+msgstr ""
+
+msgctxt "#43085"
+msgid "Favorites widget"
+msgstr ""
+
+msgctxt "#43086"
+msgid "Media widgets"
+msgstr ""
+
+msgctxt "#43090"
+msgid "Most watched music videos"
+msgstr ""
+
+msgctxt "#43091"
+msgid "Random music videos artists"
+msgstr ""
+
+msgctxt "#43100"
+msgid "Smart Shortcuts"
+msgstr ""
+
+msgctxt "#43101"
+msgid "Smart Widgets"
+msgstr ""
+
+msgctxt "#43200"
+msgid "Big posters"
+msgstr ""
+
+msgctxt "#43201"
+msgid "Clear Logos"
+msgstr ""
+
+msgctxt "#43202"
+msgid "Clear Arts"
+msgstr ""
+
+msgctxt "#43210"
+msgid "Aired"
+msgstr ""
+
+msgctxt "#43220"
+msgid "Watch it Later"
+msgstr ""
+
+msgctxt "#43230"
+msgid "Hardware"
+msgstr ""
+
+msgctxt "#43240"
+msgid "Channel"
+msgstr ""
+
+msgctxt "#43241"
+msgid "Favorites TV Channels"
+msgstr ""
+
+msgctxt "#43242"
+msgid "Favorites Radio Channels"
+msgstr ""
+
+msgctxt "#43250"
+msgid "Apply"
+msgstr ""
+
+msgctxt "#44000"
+msgid "Background opacity"
+msgstr ""
+
+msgctxt "#44001"
+msgid "Opacity "
+msgstr ""
+
+msgctxt "#44100"
+msgid "Hide time"
+msgstr ""
+
+msgctxt "#44101"
+msgid "Notification popup position"
+msgstr ""
+
+msgctxt "#44102"
+msgid "Hide notification popup during playback"
+msgstr ""
+
+msgctxt "#44103"
+msgid "Set notification popup position."
+msgstr ""
+
+msgctxt "#44104"
+msgid "Top left"
+msgstr ""
+
+msgctxt "#44105"
+msgid "Top center"
+msgstr ""
+
+msgctxt "#44106"
+msgid "Top right"
+msgstr ""
+
+msgctxt "#44107"
+msgid "Bottom left"
+msgstr ""
+
+msgctxt "#44108"
+msgid "Bottom center"
+msgstr ""
+
+msgctxt "#44109"
+msgid "Bottom right"
+msgstr ""
+
+msgctxt "#44111"
+msgid "Single image"
+msgstr ""
+
+msgctxt "#44112"
+msgid "Multi-image"
+msgstr ""
+
+msgctxt "#44113"
+msgid "Alternative view"
+msgstr ""
+
+msgctxt "#44114"
+msgid "Enable Wall Backgrounds"
+msgstr ""
+
+msgctxt "#44115"
+msgid "Random Fanart Delay"
+msgstr ""
+
+msgctxt "#44116"
+msgid "Enable Animated Fanarts"
+msgstr ""
+
+msgctxt "#44117"
+msgid "Hide fanart in full screen visualisation"
+msgstr ""
+
+msgctxt "#44118"
+msgid "Show background \"Now playing\" video"
+msgstr ""
+
+msgctxt "#44119"
+msgid "Show background \"Now playing\" visualisation"
+msgstr ""
+
+msgctxt "#44120"
+msgid "Music and Radio"
+msgstr ""
+
+msgctxt "#44121"
+msgid "Download Music Theme"
+msgstr ""
+
+msgctxt "#44122"
+msgid "List with Icon"
+msgstr ""
+
+msgctxt "#44123"
+msgid "List without Icon"
+msgstr ""
+
+msgctxt "#44124"
+msgid "After launching KODI, move the focus of the main menu to"
 msgstr ""

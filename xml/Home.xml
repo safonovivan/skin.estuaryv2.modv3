@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>9000</defaultcontrol>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu|powermenu)</onload>
 	<backgroundcolor>background</backgroundcolor>
 	<controls>
-		<control type="button" id="20000">
+		<control type="button" id="200000">
 			<include>HiddenObject</include>
 			<animation effect="fade" time="300" start="100" end="0">Focus</animation>
 			<onfocus>SetFocus(2000)</onfocus>
 			<onclick>noop</onclick>
-			<visible allowhiddenfocus="true">Control.HasFocus(20000)</visible>
+			<visible allowhiddenfocus="true">Control.HasFocus(200000)</visible>
 		</control>
-		<control type="button" id="20001">
+		<control type="button" id="200001">
 			<include>HiddenObject</include>
 			<animation effect="fade" time="300" start="100" end="0">Focus</animation>
 			<onfocus>SetFocus(2000)</onfocus>
 			<onclick>noop</onclick>
-			<visible allowhiddenfocus="true">Control.HasFocus(20001)</visible>
+			<visible allowhiddenfocus="true">Control.HasFocus(200001)</visible>
 		</control>
 		<include>DefaultBackground</include>
 		<control type="multiimage">
@@ -32,7 +33,9 @@
 		</control>
 		<control type="group">
 			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="$EXP[infodialog_active]">Conditional</animation>
-			<control type="group" id="2000">
+			<include>HomeSubMenu</include>
+			<include>HomeMainMenu</include>
+			<!-- <control type="group" id="2000">
 				<left>462</left>
 				<animation type="Conditional" condition="Control.IsVisible(20000)" reversible="false">
 					<effect type="slide" end="0,20" time="60" tween="sine" />
@@ -796,8 +799,8 @@
 						<param name="visible_3" value="String.IsEqual(System.DVDLabel,Audio-CD)"/>
 					</include>
 				</control>
-			</control>
-			<control type="group">
+			</control> -->
+			<!-- <control type="group">
 				<depth>DepthContentPanel</depth>
 				<include>OpenClose_Left</include>
 				<include content="ContentPanel">
@@ -1029,7 +1032,7 @@
 						<param name="visible" value="Player.HasMedia" />
 					</include>
 				</control>
-			</control>
+			</control> -->
 			<include>BottomBar</include>
 			<control type="group">
 				<depth>DepthBars</depth>
